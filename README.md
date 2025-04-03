@@ -2,11 +2,15 @@ Aula de React: Componentes com Fragments
 📚 O que foi aprendido na aula
 Nesta aula, exploramos conceitos importantes de React:
 
+
 Fragments: Uma forma de agrupar elementos sem adicionar nós extras ao DOM
+
 
 Destructuring: Técnica para extrair propriedades de objetos de forma mais limpa
 
+
 Renderização condicional: Como exibir diferentes conteúdos baseados em condições
+
 
 Mapeamento de arrays: Como transformar arrays de dados em componentes React
 
