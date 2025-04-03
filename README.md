@@ -1,4 +1,4 @@
-Componentes com Fragments
+Aula de React: Componentes com Fragments
 📚 O que foi aprendido na aula
 Nesta aula, exploramos conceitos importantes de React:
 
@@ -21,32 +21,6 @@ Implementasse lógica para determinar aprovação (média ≥ 7)
 
 Renderizasse múltiplos alunos a partir de um array
 
-🖥️ Como funcionou o método utilizado
-Estrutura do componente Aluno
-jsx
-<>
-  <p>Nome: {nome}</p>
-  <p>Email: {email}</p>
-  <p>Curso: {curso}</p>
-  <p>Média: {media}</p>
-  <p>Status: {status}</p>
-  <p>=======================</p>
-</>
-Lógica de status
-jsx
-const status = media >= 7 ? 'APROVADO(A)' : 'REPROVADO(A)';
-Renderização dos alunos
-jsx
-Copy
-{alunos.map((aluno, index) => 
-  <Aluno 
-    key={index}
-    nome={aluno.nome} 
-    email={aluno.email} 
-    curso={aluno.curso}
-    media={aluno.media}
-  />
-)}
 📸 Resultado
 A saída do programa mostra:
 
