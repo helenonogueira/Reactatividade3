@@ -1,4 +1,4 @@
-README - Aula de React: Componentes com Fragments
+Aula de React: Componentes com Fragments
 
 📚 O que foi aprendido na aula
 
